@@ -1,13 +1,17 @@
-from setuptools import setup, find_packages
+from setuptools import setup
+
+requires = ['memoized_property']
+
 
 setup(
     name='vsx2_change_layout',
-    version='1.0.0',
+    version='1.1.0',
     description='Change keyboard layout lib by VSx2',
     author='Vladyslav Samotoy',
     author_email='svevladislav@gmail.com',
     url="https://github.com/mcwladkoe/vsx2_change_layout",
     license="GNU GPL-3.0",
+    install_requires=requires,
     packages=["vsx2_change_layout"],
     zip_safe=False,
     classifiers=[
