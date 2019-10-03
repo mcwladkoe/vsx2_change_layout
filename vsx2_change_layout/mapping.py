@@ -22,46 +22,45 @@ class Layout:
 
 
 LAYOUT_S = {
-    'en_qwerty': Layout('''
-`1234567890-=
-~!@#$%^&*()_+
-qwertyuiop[]\
-QWERTYUIOP{}|
-asdfghjkl;'
-ASDFGHJKL:"
-zxcvbnm,./
-ZXCVBNM<>?
-    '''),
-    'ru_qwerty': Layout('''
-ё1234567890-=
-Ё!"№;%:?*()_+
-йцукенгшщзхъ\
-ЙЦУКЕНГШЩЗХЪ|
-фывапролджэ
-ФЫВАПРОЛДЖЭ
-ячсмитьбю.
-ЯЧСМИТЬБЮ,
-    '''),
-    'ua_qwerty': Layout('''
-`1234567890-=
-~!"№;%:?*()_+
-йцукенгшщзхїґ
-ЙЦУКЕНГШЩЗХЇҐ
-фівапролджє
-ФІВАПРОЛДЖЄ
-ячсмитьбю.
-ЯЧСМИТЬБЮ,
-    '''),
-    'en_dvorak': Layout('''
-`1234567890[]
-~!@#$%^&*(){}
-',.pyfgcrl/=\
-"<>PYFGCRL?+|
-aoeuidhtns-
-AOEUIDHTNS_
-;qjkxbmwvz
-:QJKXBMWVZ
-    ''', skip_in_all=True),
+    'en_qwerty': Layout(
+        '`1234567890-=' +
+        '~!@#$%^&*()_+' +
+        'qwertyuiop[]\\' +
+        'QWERTYUIOP{}|' +
+        'asdfghjkl;\'' +
+        'ASDFGHJKL:"' +
+        'zxcvbnm,./' +
+        'ZXCVBNM<>?'
+    ),
+    'ru_qwerty': Layout(
+        'ё1234567890-=' +
+        'Ё!"№;%:?*()_+' +
+        'йцукенгшщзхъ\\' +
+        'ЙЦУКЕНГШЩЗХЪ|' +
+        'фывапролджэ' +
+        'ФЫВАПРОЛДЖЭ' +
+        'ячсмитьбю.' +
+        'ЯЧСМИТЬБЮ,'
+    ),
+    'ua_qwerty': Layout(
+        '`1234567890-=' +
+        '~!"№;%:?*()_+' +
+        'йцукенгшщзхїґ' +
+        'ЙЦУКЕНГШЩЗХЇҐ' +
+        'фівапролджє' +
+        'ФІВАПРОЛДЖЄ' +
+        'ячсмитьбю.' +
+        'ЯЧСМИТЬБЮ,'
+    ),
+    'en_dvorak': Layout(
+        '`1234567890[]' +
+        '~!@#$%^&*(){}' +
+        '\',.pyfgcrl/=\\' +
+        '"<>PYFGCRL?+|' +
+        'aoeuidhtns-' +
+        'AOEUIDHTNS_' +
+        ';qjkxbmwvz' +
+        ':QJKXBMWVZ', skip_in_all=True),
 }
 
 

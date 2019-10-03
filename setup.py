@@ -5,7 +5,7 @@ requires = ['memoized_property']
 
 setup(
     name='vsx2_change_layout',
-    version='1.1.0',
+    version='1.1.1',
     description='Change keyboard layout lib by VSx2',
     author='Vladyslav Samotoy',
     author_email='svevladislav@gmail.com',
